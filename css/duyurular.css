@@ -1,0 +1,11 @@
+.baslik-kutusu {
+    width: 85%;
+    z-index:999;
+    background: linear-gradient(rgba(0, 0, 150, 0), rgba(0, 0, 100, 1));
+    margin: 0 0 1% 0;
+    text-align: center;
+}
+
+.icerik-bolmesi {
+    width: 85%;
+}

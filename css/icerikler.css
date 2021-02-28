@@ -1,0 +1,44 @@
+h3 {
+    font-size: 2vw;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+.baslik-kutusu {
+    width: 85%;
+    z-index:999;
+    background: linear-gradient(rgba(0, 0, 150, 0), rgba(0, 0, 100, 1));
+    margin: 0 0 1% 0;
+}
+
+.iletisim-icerik {
+    width: 85%;
+}
+
+.paragraf-icerik {
+    display: inline-block;
+}
+
+#bilgi-yazisi p {
+    font-weight: normal;
+}
+
+iframe {
+    width: 50%;
+    height: 400px;
+}
+
+/* ekran yatay olarak 850nin altina dusunce */
+@media (max-width: 850px) {
+    .baslik-kutusu {
+        width: 50%;
+    }
+    iframe {
+        height: 200px;
+    }
+}

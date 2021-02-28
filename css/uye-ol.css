@@ -1,0 +1,246 @@
+.baslik-kutusu {
+    width: 85%;
+    z-index:999;
+    background: linear-gradient(rgba(0, 0, 150, 0), rgba(0, 0, 100, 1));
+    margin: 0 0 1% 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2vw;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+h1 {
+    font-family: verdana;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+select {
+    height: 23px;
+}
+
+button {
+    font-weight: bold;
+    margin: 0;
+}
+
+#textElemani1 {
+    margin: 12% 0 0 0;
+    width: 100%;
+    height: 0.1%;
+}
+
+#textElemani2 {
+    margin: 10.5% 0 0 0;
+    width: 100%;
+    height: 0.1%;
+}
+
+#textElemani4 {
+    margin: 10.5% 0 14% 0;
+    width: 100%;
+    height: 0.1%;
+}
+
+#e_posta {
+    margin: 10.5% 0 0 0;
+    width: 100%;
+    height: 0.1%;
+}
+
+#parola {
+    margin: 10.5% 0 0 0;
+    width: 100%;
+    height: 0.1%;
+}
+
+#parola2 {
+    margin: 11.5% 0 0 0;
+    width: 100%;
+    height: 0.1%;
+}
+
+#textElemani3 {
+    margin: 19.5% 0 14% 0;
+    width: 100%;
+    height: 0.1%;
+}
+
+#dugme {
+    margin: 0 0 0 24%;
+    width: 50%;
+    height: 0.1%;
+}
+
+button:hover {
+    font-weight: normal;
+}
+
+/* ana bolme */
+.bolme2 {
+    width: 85%;
+    height: 125%;
+    padding: 0;
+    margin: 0;
+}
+
+.bolme22 {
+    float: left;
+    margin: 1% 0 0 0;
+    padding: 0;
+}
+
+.bolme21_k {
+    float: left;
+    padding: 0;
+    margin: 1%;
+}
+
+#kullaniciTipi {
+    font-weight: normal;
+    margin: 34% 0 0 24.5%;
+}
+
+#sehir {
+    font-weight: normal;
+    margin: 13.5% 0 0 1%;
+}
+
+#gun {
+    margin: 0 0 0 7%;
+}
+
+.sonuc {
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+    font-weight: bold;
+    text-align: center;
+}
+
+#bolme22_1 {
+    width: 187px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.bolme22_2 {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.kayitKismi {
+	width: 100%;
+	float: left;
+}
+
+.kayitBaslik ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.kayitBaslik li {
+	width: 46%;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+}
+
+.kayitBaslik li.tcCol {
+	width: 14%;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+}
+
+.kayitBaslik li.adCol {
+	width: 14%;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+}
+
+.kayitBaslik li.soyadCol {
+	width: 14%;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+}
+
+.kayitBaslik li.duzenleCol {
+	width: 8%;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+}
+
+.kayitListesi ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.kayitListesi li {
+	width: 46%;
+	float: left;
+	text-align: center;
+	font-weight: normal;
+}
+
+.kayitListesi li.tcCol {
+	width: 14%;
+	float: left;
+	text-align: center;
+	font-weight: normal;
+}
+
+.kayitListesi li.adCol {
+	width: 14%;
+	float: left;
+	text-align: center;
+	font-weight: normal;
+}
+
+.kayitListesi li.soyadCol {
+	width: 14%;
+	float: left;
+	text-align: center;
+	font-weight: normal;
+}
+
+.kayitListesi li.duzenleCol {
+	width: 8%;
+	float: left;
+	text-align: center;
+	font-weight: normal;
+}
+
+.kayitListesi li.duzenleCol:hover {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+
+li.sil {
+	width: 4%;
+	
+}
+
+li.silColumn {
+	width: 4%;
+	
+}
+
+.sil:hover {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+

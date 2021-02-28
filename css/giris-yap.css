@@ -1,0 +1,70 @@
+.baslik-kutusu {
+    width: 85%;
+    z-index:999;
+    background: linear-gradient(rgba(0, 0, 150, 0), rgba(0, 0, 100, 1));
+    margin: 0 0 1% 0;
+    text-align: center;
+}
+
+.giris-paneli {
+    width: 85%;
+}
+
+form[method=post] {
+    border: 3px solid #000064;
+}
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.iptal-butonu {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.simge-kutusu {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.kullanici-fotosu {
+    width: 20%;
+    border-radius: 50%;
+}
+
+span.parola {
+    float: right;
+    padding-top: 16px;
+}
+
+/* kucuk ekranlar */
+@media screen and (max-width: 300px) {
+    span.parola {
+        display: block;
+        float: none;
+    }
+    .iptal-butonu {
+        width: 100%;
+    }
+}

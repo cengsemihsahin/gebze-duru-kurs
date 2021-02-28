@@ -1,0 +1,32 @@
+.baslik-kutusu {
+    width: 85%;
+    z-index:999;
+    background: linear-gradient(rgba(0, 0, 150, 0), rgba(0, 0, 100, 1));
+    margin: 0 0 1% 0;
+    text-align: center;
+}
+
+.icerik-bolmesi {
+    width: 85%;
+}
+
+.icerik-bolmesi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.icerik-bolmesi li {
+    padding: 0.6%;
+    float: left;
+}
+
+.icerik-bolmesi li a {
+    color: black;
+    font-size: 1vw;
+}
+
+.cerceve {
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+
+.baslik-kutusu h3 {
+	text-align: center;
+}
+
+.icerik-bolmesi {
+	width: 85%;
+}
+
+.icerik-bolmesi p {
+	font-size: 1vw;
+	font-weight: normal;
+}
+
+.fotoyu-sigdir {
+	width: 100%;
+	object-fit: cover;
+}
+
+.fotoyu-ortala {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}

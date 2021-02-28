@@ -1,0 +1,112 @@
+/* sloganin boyutu */
+.slogan {
+    width: 50%;
+}
+
+/* ekran yatay olarak 850nin altina dusunce slogani kucult */
+@media (max-width: 850px) {
+    .slogan {
+        width: 10%;
+    }
+}
+
+/* Arkaplan */
+body {
+    background-image: url("../images/anasayfa/kalemler.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+/* Konteynerin boyutu */
+.container {
+    max-width: 92%;
+}
+
+/* Bolmelerin boyutu */
+.bolum-1 {
+    margin: 1% 0 0 0;
+}
+.bolum-2 {
+    margin: 0.1% 0 0 0;
+}
+.orta-bolum {
+    width: 48%;
+}
+.icerik {
+    width: 74%;
+}
+
+/* login register search bolumu */
+.login-register-bolumu {
+    display: block;
+    float: left;
+    height: 55%;
+    width: 100%;
+}
+.search-bolumu {
+    margin: 1% 0 0 0;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.login-register-bolumu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.login-register-bolumu li {
+    margin: 1.7% 0 0 1.7%;
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+.login-register-bolumu li a {
+    color: #000000;
+    font-weight: bold;
+    display: block;
+    margin: 0;
+    padding: 12px;
+    background-color: #a1c1ff;
+    border: 1px solid #ffc9f7;
+    border-radius: 10px;
+}
+.login-register-bolumu li a:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #3e2d96;
+    text-decoration: none;
+}
+.aktif-renk input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #3e2d96;
+    box-shadow: 0 1px 0 0 #3e2d96;
+}
+
+/* dikey menu kismi */
+#dikey-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#dikey-menu li {
+    margin: 2.5% 0 0 0;
+}
+#dikey-menu li a {
+    display: block;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration:none;
+    background-color: #a1c1ff;
+    border: 1px solid #ffc9f7;
+    border-radius: 10px;
+}
+#dikey-menu li a:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #3e2d96;
+    text-decoration: none;
+}
